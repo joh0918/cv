@@ -1,0 +1,142 @@
+body {
+    margin: 6%;
+    background-color: #778DA9;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0D1B2A;
+    border-radius: 5px 5px 0 0;
+}
+/* TODO add different font */
+nav a {
+    padding: 10px;
+    color: #E0E1DD;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav a:hover { 
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0D1B2A;
+    padding: 15px;
+    border-radius: 5px;    
+}
+
+footer a {
+    color: #E0E1DD;
+    text-decoration: none;
+    font-size: large;    
+}
+
+footer a:hover {
+    text-decoration: underline;    
+}
+
+.intro {
+    background-color: #415A77;
+    color: #E0E1DD;
+    padding: 50px;    
+}
+
+.intro h1 {
+    background-color: #0D1B2A;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro h2 {
+    background-color: #0D1B2A;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-me {
+    background-color: #415A77;
+    color: #E0E1DD;
+    padding: 50px;
+    border-radius: 0 0 5px 5px; 
+}
+
+.me {
+    position: relative;
+    top: -80px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.about-me a {
+    padding: 10px;
+    color: #E0E1DD;
+    text-decoration: none;
+    margin-left: -11px;
+
+}
+
+.about-me a:hover {
+    text-decoration: underline;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+.card {
+    background-color: #778DA9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.info {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    color: #E0E1DD;
+    font-size: small;
+}
+.card label[for="name"], label[for="email"], label[for="message"] {
+    color: #0D1B2A;
+}
+.one-col textarea[id="message"], input[type="text"], input[type="email"] {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+.one-col input[type=submit] {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.one-col input[type=submit]:hover {
+    background-color: #415A77;
+}
