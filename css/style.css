@@ -1,5 +1,5 @@
 body {
-    margin: 6%;
+    margin: 0%;
     background-color: #778DA9;
     font-family: 'Dosis', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -55,16 +55,16 @@ footer a:hover {
 .img1 {
     position: absolute;
     top: 20px;
-    left: 200px; 
-    width: 250px; 
+    left: 100px; 
+    width: 200px; 
     height: auto; 
 }
 
 .img2 {
     position: absolute;
     top: 20px; 
-    right: 200px; 
-    width: 250px;
+    right: 100px; 
+    width: 200px;
     height: auto; 
 }
 
